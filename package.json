@@ -1,0 +1,21 @@
+{
+  "name": "okaybenji-nsf-player",
+  "version": "0.0.1",
+  "description": "This is a player for NSF-format Nintendo Entertainment System music files. It's written in JavaScript and should work in any major browser.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lwollnikowski/nsf-player.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/lwollnikowski/nsf-player/issues"
+  },
+  "homepage": "https://github.com/lwollnikowski/nsf-player#readme"
+}
