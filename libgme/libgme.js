@@ -3,7 +3,7 @@
 
 // When targetting node and ES6 we use `await import ..` in the generated code
 // so the outer function needs to be marked as async.
-async function Module(moduleArg = {}) {
+async function createModule(moduleArg = {}) {
   var moduleRtn;
 
 // include: shell.js
@@ -1648,5 +1648,5 @@ for (const prop of Object.keys(Module)) {
 }
 
 // Export using a UMD style export, or ES6 exports if selected
-export default Module;
+export default createModule;
 

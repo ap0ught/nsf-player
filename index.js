@@ -1,10 +1,10 @@
-import Module from './libgme/libgme';
+import createModule from "./libgme/libgme"; './libgme/libgme';
 
 export const createNsfPlayer = async (audioContext) => {
   // Messages are disabled. Feel free to handle them however you like.
   const message = () => null;
 
-  Module = await Module();
+  const Module = await createModule();
 
   const play = (fileName, trackNo) => {
     if (node) {
